@@ -1,4 +1,4 @@
-This app is the NextJs version of (svelte-tube)[https://svelte-tube.vercel.app]
+This app is the NextJs version of [svelte-tube](https://svelte-tube.vercel.app)
 
 ## Getting Started
 
