@@ -7,7 +7,7 @@ export default function Home() {
 		Some pages to work on:
 		<ul className={styles.ul}>
 			<li><a href="/anime/naruto">Anime Page</a></li>
-			<li><a href="/search">Search</a></li>
+			<li><a href="/search">Search</a> (assigned to WinterSunset95)</li>
 			<li><a href="/anime/naruto/ep1">Episode Page</a></li>
 		</ul>
 	</main>

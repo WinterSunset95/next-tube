@@ -1,0 +1,52 @@
+.nav {
+	display: flex;
+	flex-wrap: wrap;
+	flex-grow: 1;
+	justify-content: space-between;
+	padding: 1rem;
+	background-color: var(--secondary);
+	gap: 1rem;
+}
+
+.nav > * {
+	flex-grow: 1;
+}
+
+.nav > h1 {
+	display: flex;
+	align-items: center;
+}
+
+.nav > ul {
+	display: flex;
+	align-items: center;
+	gap: 1rem;
+}
+
+.form {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	gap: 0.5rem;
+	border-radius: 0.5rem;
+	background-color: var(--primary);
+}
+
+.form > input {
+	background: transparent;
+	border: none;
+	padding: 0.5rem;
+	color: var(--text);
+	flex-grow: 1;
+}
+
+.form > input:focus {
+	outline: none;
+}
+
+.form > button {
+	background: transparent;
+	border: none;
+	padding: 0.5rem;
+	color: var(--text);
+}
