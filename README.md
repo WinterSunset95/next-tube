@@ -19,7 +19,8 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 ## Guidelines
 1. Use the colors declared in the global.css file.
 2. Do NOT push to main. Push to your own working branch and make a pull request.
-3. We are using the Consumet API by hosting our own instance at:
+3. Whenever the main branch is updated, pull the changes and merge with your local branch.
+4. We are using the Consumet API by hosting our own instance at:
 ```
 https://consumet-api-six-ochre.vercel.app/
 ```
