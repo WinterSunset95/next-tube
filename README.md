@@ -16,12 +16,18 @@ bun dev
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-## Guidelines
+## Guidelines for beginners
 1. Use the colors declared in the global.css file.
 2. Do NOT push to main. Push to your own working branch and make a pull request.
+```
+git checkout -b yourBranchName
+<do your work here>
+git commit -m "write a commit message"
+git push origin yourBranchName
+```
 3. Whenever the main branch is updated, pull the changes and merge with your local branch.
-4. We are using the Consumet API by hosting our own instance at:
 ```
-https://consumet-api-six-ochre.vercel.app/
+git pull origin main
 ```
-Documentation is at https://docs.consumet.org/
+4. We are using the Consumet API by hosting our own instance at https://consumet-api-six-ochre.vercel.app/
+5. Documentation is at https://docs.consumet.org/
